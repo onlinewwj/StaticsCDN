@@ -1,3 +1,4 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js', { scope: '/' })})}
 if (/*@cc_on!@*/ false || (!!window.MSInputMethodContext && !!document.documentMode)){window.location.href = 'https://ssle.cn/check-browser-ie.html';}
 if (!localStorage.getItem('token')) {
   document.onkeydown = function () {
@@ -8,4 +9,3 @@ if (!localStorage.getItem('token')) {
   }
   ConsoleBan.init();
 }
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js', { scope: '/' })})}
