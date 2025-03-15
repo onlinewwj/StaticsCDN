@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://static.tang-xinli.com/gh/onlinewwj/StaticsCDN@315/imsyy-home/sw.js', { scope: '/' })})}
